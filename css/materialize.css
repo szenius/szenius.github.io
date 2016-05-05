@@ -2326,6 +2326,7 @@ template {
  */
 a {
   background-color: transparent;
+  text-decoration: underline;
 }
 
 /**
@@ -2335,6 +2336,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  color: teal;
 }
 
 /* Text-level semantics
