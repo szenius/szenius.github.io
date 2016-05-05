@@ -4223,6 +4223,7 @@ nav ul a:hover, a:active {
   background-color: rgba(0, 0, 0, 0.1);*/
   border-bottom: 3px solid teal;
   color: teal;
+  font-weight: bold;
 }
 
 nav ul.left {
