@@ -2325,7 +2325,7 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent;
+  background-color: none;
   text-decoration: underline;
 }
 
@@ -4216,7 +4216,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
   margin-right: 15px;
 }
 
-nav ul a:hover {
+nav ul a:hover, a:active {
 /*
   background: teal;
   color: white;
