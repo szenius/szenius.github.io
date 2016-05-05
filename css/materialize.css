@@ -2156,7 +2156,7 @@
 }
 
 .transparent {
-  background-color: transparent !important;
+  background-color: transparent  !important;
 }
 
 .transparent-text {
@@ -2657,7 +2657,7 @@ ul.browser-default {
 }
 
 a {
-  color: #039be5;
+  color: #000;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
@@ -4258,7 +4258,7 @@ nav .input-field label.active {
 
 .navbar-fixed {
   position: relative;
-  height: 56px;
+  height: 0px;
   z-index: 998;
 }
 
