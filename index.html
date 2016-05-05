@@ -10,9 +10,9 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar">
     <!-- Navigation bar -->
-    <div class="navbar-fixed">
+    <div id="navbar" class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="#" class="right brand-logo">TING SZE YING</a>
@@ -60,11 +60,10 @@
   </div>
 
     <!-- About -->
-    <div id="about" class="container" style="padding-top: 50px; padding-bottom: 50px">
+    <div class="container" style="height:100%">
         <div class="section">
-            <div class="row center" style="padding-top: 100px; padding-bottom: 100px">
+            <div id="about" class="row center scrollspy">
                 <div class="col s4"><img src="img/pp.jpg" class="responsive-img"></div>
-
                 <div class="col s7 offset-s1">
                     <p.default-browser><h4>ABOUT <b>SZE YING</b></h4></p.default-browser>
                     <p class="light">
@@ -86,12 +85,12 @@
      </div>
     
     <!-- Skills -->
-    <div id="skills" class="container" style="padding-top: 50px; padding-bottom: 50px">
+    <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <div class="section">
             <div class="row center">
                 <h3>S  K  I  L  L  S</h3>
             </div>
-            <div class="divider"></div>
+            <div id="skills" class="divider scrollspy"></div>
             <div class="section">
                 <div class="row center">
                     <div class="col s3">
@@ -175,13 +174,13 @@
     </div>
 
     <!-- Education -->
-    <div id="education" class="container" style="padding-top: 50px; padding-bottom: 50px">
+    <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <div class="section">
 
             <div class="row center">
               <h3>E  D  U  C  A  T  I  O  N</h3>
             </div>
-            <div class="divider"></div>
+            <div id="education" class="divider scrollspy"></div>
             <div class="row">
                 <div class="section">
                     <div class="col s2"><img src="img/nus.png" class="responsive-img" style="padding-top: 20px"></div>
@@ -231,12 +230,12 @@
     </div>
     
     <!-- Projects -->
-    <div id="projects" class="container"  style="padding-top: 50px; padding-bottom: 50px">
+    <div class="container" style="padding-top: 50px; padding-bottom: 50px">
         <div class="section">
             <div class="row center">
                 <h3>P  R  O  J  E  C  T  S</h3>
             </div>
-            <div class="divider"></div>
+            <div id="projects" class="divider scrollspy"></div>
             <div class="section">
                 <div class="row center">
                     <div class="col s6">
@@ -307,12 +306,12 @@
     </div>
 
     <!-- Work -->
-    <div id="work" class="container"  style="padding-top: 50px; padding-bottom: 50px">
+    <div class="container"  style="padding-top: 50px; padding-bottom: 50px">
         <div class="section">
             <div class="row center">
               <h3>W  O  R  K</h3>
             </div>
-            <div class="divider"></div>
+            <div id="work" class="divider scrollspy"></div>
             <div class="row">
                 <div class="section">
                     <div class="col s2"><img src="img/nus.png" class="responsive-img" style="padding-top: 20px"></div>
@@ -392,13 +391,14 @@
         <div class="parallax"><img class="responsive-img" src="img/bg2.JPG" alt="Photo"></div>
     </div>
 
-    <footer id="connect" class="page-footer white">
+    <!-- Connect -->
+    <footer class="page-footer white">
         <div class="container" style="padding-top:50px; padding-bottom:50px">
             <div class="section">
                 <div class="row center">
                     <h3>C  O  N  N  E  C  T</h3>
                 </div>
-                <div class="divider"></div>
+                <div id="connect" class="divider scrollspy"></div>
                 <div class="section">
                     <div class="row center">
                         <img src="img/szeying2.jpg" class="responsive-img" width="70%" height="70%">
